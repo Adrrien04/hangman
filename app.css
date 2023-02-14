@@ -1,0 +1,147 @@
+@font-face {
+    font-family : "Montserrat";
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight : normal;
+    font-style : normal;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    margin: 2rem 0;
+    background-color: rgba(0,0,0,0);
+}
+section[id="mot_a_trouver"]
+{
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+section[id="letters"]
+{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    color: white;
+
+}
+section[id=letters] ul li
+{
+    color: white;
+    border: 0.1rem solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    cursor: pointer;
+    margin: 0.3rem;
+    background-color: rgba(0,0,0,0);
+}
+section[id=letters] button
+{
+@font-face {
+    font-family : "Montserrat";
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight : normal;
+    font-style : normal;
+}
+span{
+    text-transform: uppercase;
+    font : normal bold 30px/45px Montserrat;
+    text-decoration: none;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #3F51B5;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0px #E91E63;
+}
+
+
+}
+section[id=letters] ul li[class="good"]
+{
+    background-color: green;
+}
+section[id=letters] ul li[class"desactive"]
+{
+    background-color: tomato;
+}
+img#logo{
+
+
+    padding: 0;
+    margin: 0;
+    display: block;
+    float:left;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:1350px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+body{
+    background-image: url("Imagependu/3881912.jpeg"); <!--/Users/oumou/Library/CloudStorage/OneDrive-Personnel/ProjetLOAD/Images/fond.gif*/-->
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+img {
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TheHangman</title>
+    <link rel="shortcut icon" href="Images/perso.png" />
+
+    <link rel="stylesheet" href="Css/ex2.css">
+    <link href="Css/home.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<header>
+    <img id="logo" src="Images/perso.png" alt="Logo" width="241" height="113" />
+    <nav class="menu">
+        <ul id="Nav">
+            <li id="Bar"><a href="index.html">Home</a></li>
+            <li id="Bar"><a href="History.html">H I S T O R Y</a></li>
+            <li id="Bar"><a href="rules.html">Rules</a></li>
+            <li id="Bar"><a href="Credits.html">Credits</a></li>
+        </ul>
+    </nav>
+
+</header>
+<div class="Bonjour">
+    <div class="Bonjour1">
+<div id="div1">
+    <h1> About The Game </h1>
+    <p>This is a variation of the popular Hangman letter-guessing game. In order to discover the secret word, you are given a collection of blank letters that correspond to a word or phrase. By selecting letters from those on the sides, you make a guess. In contrast, if you select a letter that is not in the word, a stickman is drawn slowly. If you select a letter that is in the word, a sound is played and that letter is revealed from the blank letters. The man is lured in more and more with each incorrect guess at a letter. The game is over when the man is finished and hanged. This is the basis for the game's name, "Hangedman."</p>
+</div>
+
+<img  class="img1" src="Images/Gameboardjaune.png">
+    </div>
+    <div class="Bonjour2">
+<img class="img2" src="Images/Gameoverjaune.png">
+
+
+<div id="div4">
+    <h1> HISTORY</h1>
+    <p>Though the origins of the game are unknown, a variant is mentioned in a book of children's games assembled by Alice Gomme in 1894 called Birds, Beasts, and Fishes. This version lacks the image of a hanged man, instead relying on keeping score as to the number of attempts it took each player to fill in the blanks.
+
+        A version which incorporated hanging imagery was described in a 1902 Philadelphia Inquirer article, which stated that it was popular at "White Cap" parties hosted by "Vigilance Committees" where guests would wear "white peaked caps with masks".</p>
+    <!--<div id="div1">
+        <h1> RULES</h1>
+        <p>This is a variation of the popular Hangman letter-guessing game. In order to discover the secret word, you are given a collection of blank letters that correspond to a word or phrase. By selecting letters from those on the sides, you make a guess. In contrast, if you select a letter that is not in the word, a stickman is drawn slowly. If you select a letter that is in the word, a sound is played and that letter is revealed from the blank letters. The man is lured in more and more with each incorrect guess at a letter. The game is over when the man is finished and hanged. This is the basis for the game's name, "Hangedman."</p>
+    </div>-->
+</div>
+</div>
+</div>
+</body>
+
+
+
+<style>
+
+
+
+
+    img#logo{
+
+
+        padding: 0;
+        margin: 0;
+        display: block;
+        float:left;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left:1350px;
+    }
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+
+
+
+    .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    img {
+        margin: auto;
+        display: block;
+    }
+
+    .Bonjour{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .Bonjour1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Bonjour2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #div1{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        border: 2px dashed solid white;
+        text-align: justify;
+    }
+    .img1{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        border: 2px dashed solid white;
+
+    }
+
+    #div4{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        border: 2px dashed solid white;
+        text-align: justify;
+
+
+    }
+    .img2{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        border: 2px dashed solid white;
+
+    }
+    .footer-distributed {
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        padding: 45px 50px;
+        font-family: Roboto;
+    }
+
+    .footer-distributed .footer-left p {
+        color: #8f9296;
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+    @media (max-width: 600px) {
+        .footer-distributed .footer-left, .footer-distributed .footer-right {
+            text-align: center;
+        }
+        .footer-distributed .footer-right {
+            float: none;
+            margin: 0 auto 20px;
+        }
+        .footer-distributed .footer-left p.footer-links {
+            line-height: 1.8;
+        }
+    }
+
+    .footer-distributed{
+        position: fixed;
+        bottom : 0px;
+    }
+</style>
+</html>
+
+<footer class="footer-distributed">
+
+
+    <center> <div class="footer-left">
+
+        <p class="footer-links">
+            <a class="link-1" href="index.html">Home</a>
+
+            &nbsp
+            <a href="Credits.html">Credits</a>
+            <br></br>
+        </p>
+
+        <p>P R O J E T &nbsp &nbsp L O A D <br></br> T H E &nbsp &nbsp H A N G M A N &nbsp &nbsp &nbsp &nbsp &copy; 2023</p>
+    </div></center>
+
+</footer>
+</html>
